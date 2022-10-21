@@ -35,7 +35,7 @@ export type MessageType2 = {
 export const message0: MessageType = {
     id: 0,
     user: {
-        avatar: avatar, // можно менять
+        avatar: 'https://img.freepik.com/premium-vector/samurai-warrior-logo-design-vector-silhouette-samurai-template-illustration_647432-451.jpg?w=2000', // можно менять
         name: 'Nikmaunt',  // можно менять
     },
     message: {
@@ -46,7 +46,7 @@ export const message0: MessageType = {
 export const friendMessage0: MessageType = {
     id: 100,
     user: {
-        avatar: avatar, // можно менять
+        avatar: 'https://static.vecteezy.com/system/resources/previews/002/013/887/original/samurai-head-with-oni-mask-free-vector.jpg', // можно менять
         name: 'Artyom Hodas', // можно менять
     },
     message: {
