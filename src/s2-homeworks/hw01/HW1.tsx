@@ -36,10 +36,10 @@ export const message0: MessageType = {
     id: 0,
     user: {
         avatar: 'https://img.freepik.com/premium-vector/samurai-warrior-logo-design-vector-silhouette-samurai-template-illustration_647432-451.jpg?w=2000', // можно менять
-        name: 'Nikmaunt',  // можно менять
+        name: 'Sempai',  // можно менять
     },
     message: {
-        text: 'Wake up, samurai', // можно менять
+        text: 'Are you ready, samurai?', // можно менять
         time: '22:00', // можно менять
     },
 }
@@ -47,10 +47,10 @@ export const friendMessage0: MessageType = {
     id: 100,
     user: {
         avatar: 'https://static.vecteezy.com/system/resources/previews/002/013/887/original/samurai-head-with-oni-mask-free-vector.jpg', // можно менять
-        name: 'Artyom Hodas', // можно менять
+        name: 'Samurai', // можно менять
     },
     message: {
-        text: 'Im NEO ', // можно менять
+        text: 'Yep! ', // можно менять
         time: '22:00', // можно менять
     },
 }
