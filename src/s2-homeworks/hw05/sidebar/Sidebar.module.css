@@ -1,7 +1,9 @@
 .sidebar {
+    color: #0066cc;
 }
 
 .sidebar.open {
+    color: #00cc22;
 }
 
 .background {
@@ -18,7 +20,9 @@
 
 .nav a.active {
 }
+
 .close {
+    color: #cc9c00;
 }
 
 .close img {
