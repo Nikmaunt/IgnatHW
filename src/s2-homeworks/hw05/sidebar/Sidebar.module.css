@@ -13,16 +13,18 @@
 }
 
 .nav a {
+
 }
 
 .nav a:hover {
 }
 
 .nav a.active {
+    color: aquamarine;
 }
 
 .close {
-    color: #cc9c00;
+    color: black;
 }
 
 .close img {
