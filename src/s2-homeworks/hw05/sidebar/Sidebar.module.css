@@ -3,7 +3,7 @@
 }
 
 .sidebar.open {
-    color: #00cc22;
+    color: green;
 }
 
 .background {
@@ -13,14 +13,14 @@
 }
 
 .nav a {
-
+    color: blue;
 }
 
 .nav a:hover {
 }
 
 .nav a.active {
-    color: aquamarine;
+    color: red;
 }
 
 .close {
@@ -28,4 +28,5 @@
 }
 
 .close img {
+
 }
