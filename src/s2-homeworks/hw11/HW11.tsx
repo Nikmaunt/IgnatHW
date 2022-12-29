@@ -6,7 +6,7 @@ import SuperRange from './common/c7-SuperRange/SuperRange'
 
 /*
 * 1 - передать значения в оба слайдера
-* 2 - дописать типы и логику функции change
+* 2 - дописать типы и логcdику функции change
 * 3 - сделать стили в соответствии с дизайном
 * */
 
@@ -17,11 +17,12 @@ function HW11() {
 
     const change = (e: any, value: any) => {
         // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый
-        if (value === []) {
-            setValue1(value)
-            setValue2(value)
-        } else setValue1(value)
-
+        if (value instanceof Array )
+        {
+            setValue1(value[0])
+            setValue2(value[1])
+        }
+              else {setValue1(value)}
 
     }
 
@@ -45,7 +46,7 @@ function HW11() {
                         <SuperRange
                             id={'hw11-double-slider'}
                             // сделать так чтоб value1/2 изменялось // пишет студент
-                            value={value1}
+                            value={[value1, value2]}
                             onChange={change}
                         />
                         <span id={'hw11-value-2'} className={s.number}>{value2}</span>
