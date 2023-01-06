@@ -45,7 +45,8 @@ const HW13 = () => {
                 setCode('Код 400!')
                 setImage(error400)
                 setDisabled(false)
-                setInfo('error!')
+                setInfo('Error')
+
             })
     }
 
