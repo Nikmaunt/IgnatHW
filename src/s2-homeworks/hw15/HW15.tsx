@@ -69,21 +69,21 @@ const HW15 = () => {
         console.log('change')
         setPage(newPage)
         setCount(newCount)
-
-        sendQuery(techs)
-        setSearchParams()
-
+        sendQuery({page: newPage, count: newCount})
+        setSearchParams(searchParams)
+        console.log('techs ' + techs)
+        console.log('searchParams ' + searchParams)
         //
     }
 
     const onChangeSort = (newSort: string) => {
         // делает студент
 
-        // setSort(newSort)
-        // setPage(page - 1) // при сортировке сбрасывать на 1 страницу
-        //
-        // sendQuery(techs)
-        // setSearchParams(searchParams)
+        setSort(newSort)
+        setPage(page - 1) // при сортировке сбрасывать на 1 страницу
+
+        sendQuery(techs)
+        setSearchParams(searchParams)
 
         //
     }
