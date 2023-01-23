@@ -80,11 +80,9 @@ const HW15 = () => {
         // делает студент
         console.log('onChangeSort')
         setSort(newSort)
-        setPage(page - 1) // при сортировке сбрасывать на 1 страницу
-        sendQuery({sort: newSort})
-        // sendQuery(techs)
-        setSearchParams()
-
+        // setPage(page - 1) // при сортировке сбрасывать на 1 страницу
+        sendQuery({page: page, count: count, sort: newSort})
+        setSearchParams(newSort)
         //
     }
 
